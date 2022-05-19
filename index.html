@@ -21,11 +21,13 @@
                 </tr>
                 
                 <tr>
-                    <td><input name="num1" type="text" placeholder="0" size="12"></td>
-                    <td><input name="num2" type="text" placeholder="0" size="12"></td>
-                    <td><input name="num3" type="text" placeholder="0" size="12"></td>
+                    <td><input class="in" name="num1" type="text" placeholder="0" size="12"></td>
+                    <td><input class="in" name="num2" type="text" placeholder="0" size="12"></td>
+                    <td><input class="in" name="num3" type="text" placeholder="0" size="12"></td>
                 </tr>
             </table>
+
+            <input class="error" type="text" name="error" size="48">
             <input class="calcing" type="button" value="Вывести" onClick="check_arg()" />
             <input class="reset" type="reset"/>
         </form>
@@ -38,12 +40,15 @@
                 </tr>
                 
                 <tr>
-                    <td><input type="text" placeholder="x1 =" name="x1" size="21"></td>
-                    <td><input type="text" placeholder="x2 =" name="x2" size="21"></td>
+                    <td><input class="out" type="text" placeholder="x1 =" name="x1" size="21"></td>
+                    <td><input class="out" type="text" placeholder="x2 =" name="x2" size="21"></td>
                 </tr>
-
             </table>
+
+            <h2>History</h2>
+            <div class="history"></div>
         </form>
+        
     </div>
 
     <script src="logic.js"></script>

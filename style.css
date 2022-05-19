@@ -4,6 +4,10 @@
     flex-direction: column;
 }
 
+.error {
+    display: block;
+}
+
 h2 {
     margin: 0;
 }
@@ -17,4 +21,19 @@ code {
     color: rgb(255, 255, 255);
 }
 
+.form_out .history td{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
 
+.form_out .history table, td {
+    border: 1px solid;
+}
+
+.form_out .history table {
+    background-color: black;
+}
+
+.form_out .history td {
+    width: 69px;
+}
